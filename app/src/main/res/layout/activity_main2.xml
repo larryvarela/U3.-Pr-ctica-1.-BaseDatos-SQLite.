@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VEHICULO" />
+
+    <EditText
+        android:id="@+id/placaVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="placa"/>
+    <EditText
+        android:id="@+id/marcaVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="marca"/>
+    <EditText
+        android:id="@+id/modeloVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="modelo"/>
+
+
+    <EditText
+        android:id="@+id/añoVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="4"
+        android:inputType="number"
+        android:hint="año"/>
+    <EditText
+        android:id="@+id/idconductorVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="id conductor"/>
+
+    <Button
+        android:id="@+id/buttonV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar" />
+
+    <ListView
+        android:id="@+id/listaVehiculos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

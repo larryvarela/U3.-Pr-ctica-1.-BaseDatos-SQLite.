@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LADM_U3_PRACTICA1_BaseDeDatosSQLite</string>
+    <array name="MenuPantallas">
+        <item>CONDUCTOR</item>
+        <item>VEHICULO</item>
+        <item>CONSULTAS</item>
+        <item>EXPORTAR</item>
+    </array>
+</resources>
